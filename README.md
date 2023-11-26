@@ -10,6 +10,18 @@ HashHawk is a Python-based password hash cracking tool that supports both dictio
 - **Interactive Mode:** User-friendly interactive mode for easy input and execution.
 - **Multiprocessing Support:** Utilizes multiprocessing for faster brute-force attacks on multi-core systems.
 
+## Dependencies
+
+Make sure to have the following Python libraries installed:
+
+- [Pwntools](https://docs.pwntools.com/): A CTF framework and exploit development library.
+- [hashlib](https://docs.python.org/3/library/hashlib.html): Provides secure hash and message digest algorithms.
+- [multiprocessing](https://docs.python.org/3/library/multiprocessing.html): Supports the spawning of processes using an API similar to the threading module.
+- [itertools](https://docs.python.org/3/library/itertools.html): Provides functions for creating iterators for efficient looping.
+- [string](https://docs.python.org/3/library/string.html): Provides common string operations.
+- [datetime](https://docs.python.org/3/library/datetime.html): Supplies classes for manipulating dates and times.
+- [argparse](https://docs.python.org/3/library/argparse.html): Parser for command-line options, arguments, and sub-commands.
+
 ## Usage
 
 ### Command Line
@@ -54,6 +66,8 @@ python hashhawk.py
 2. Enter the target hash, choose the attack type, and provide additional information as prompted.
 
 3. Let HashHawk perform the password cracking.
+
+#
 
 ## Disclaimer
 
